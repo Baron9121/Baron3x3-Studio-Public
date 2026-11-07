@@ -1,0 +1,51 @@
+{
+  "photos": [
+    "matte-photos/photos/01.jpg",
+    "matte-photos/photos/03.jpg",
+    "matte-photos/photos/04.jpg",
+    "matte-photos/photos/05.jpg",
+    "matte-photos/photos/06.jpg"
+  ],
+  "photoProfiles": [
+    {
+      "face": [
+        0.49,
+        0.53
+      ],
+      "contain": false,
+      "zoom": 1.15
+    },
+    {
+      "face": [
+        0.44,
+        0.23
+      ],
+      "contain": false,
+      "zoom": 1.08
+    },
+    {
+      "face": [
+        0.47,
+        0.27
+      ],
+      "contain": true,
+      "zoom": 1.06
+    },
+    {
+      "face": [
+        0.64,
+        0.31
+      ],
+      "contain": true,
+      "zoom": 1.06
+    },
+    {
+      "face": [
+        0.5,
+        0.15
+      ],
+      "contain": false,
+      "zoom": 1.1
+    }
+  ]
+}

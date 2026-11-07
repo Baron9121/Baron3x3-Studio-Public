@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-20T22:32:51.216169+00:00",
+  "baselineExample": "adrian-bogucki-approved",
+  "decisions": [
+    {
+      "id": "captions-green-word-v1",
+      "module": "captions",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik zaakceptował czytelny wariant po poprawieniu podświetlenia i paginacji.",
+      "rules": [
+        "Pokazuj 2–3 słowa na planszę.",
+        "Kropka i przecinek kończą planszę, ale są ukrywane; wykrzyknik i pytajnik pozostają widoczne.",
+        "Aktywne słowo pozostaje białe na dopasowanym zielonym tle #39E508 z czarnym obrysem."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/captions.md"
+      ]
+    },
+    {
+      "id": "stable-zoom-rhythm-v1",
+      "module": "framing",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Szybkie zmiany zoomu utrudniały skupienie; użytkownik zaakceptował spokojniejsze bloki.",
+      "rules": [
+        "Używaj trzech poziomów kadru: wide, medium i close.",
+        "Utrzymuj jeden blok kadrowania zwykle 4–7 sekund; bez uzasadnienia nigdy krócej niż 3 sekundy.",
+        "Zmieniaj skalę na granicy myśli, tezy lub sceny, nie co 1–2 sekundy."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/framing.md"
+      ]
+    },
+    {
+      "id": "premium-transitions-v1",
+      "module": "transitions",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik zaakceptował subtelne przejścia po usunięciu amatorskiego glitchu.",
+      "rules": [
+        "Zoom blur, subtelne RGB, whip, flash, light-leak i miękkie slice'y stosuj tylko na uzasadnionych zmianach.",
+        "W jednym momencie stosuj najwyżej jeden silny efekt.",
+        "Efekt ma wspierać zmianę myśli lub materiału, a nie maskować przypadkowe cięcie."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/transitions.md"
+      ]
+    },
+    {
+      "id": "stat-card-v1",
+      "module": "graphics",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Animowana karta 5 PTS / 10 REB została oceniona pozytywnie.",
+      "rules": [
+        "Kartę statystyczną pokazuj wyłącznie podczas wypowiadania liczb.",
+        "Liczby liczą od zera, jednostki pojawiają się po liczeniu, a wejście może dostać pojedynczy impact.",
+        "Nie nakładaj drugiego silnego efektu na kartę statystyczną."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/effects.md"
+      ]
+    },
+    {
+      "id": "sound-design-b-v1",
+      "module": "audio",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik zatwierdził wariant B sound designu.",
+      "rules": [
+        "Whoosh stosuj na wybranych zmianach skali lub B-rollu, impact na najmocniejszym akcencie, click dla UI lub waveform.",
+        "Nie dodawaj SFX na każdym cięciu i zawsze zachowuj mowę jako warstwę nadrzędną.",
+        "Limity głośności: whoosh 0.18, impact 0.24, click 0.12."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "output/r1-b-reference-ducked.mp4"
+      ]
+    },
+    {
+      "id": "semantic-broll-v1",
+      "module": "broll",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik zaakceptował dobór materiału po znaczeniu, bez powtórek i urywania akcji.",
+      "rules": [
+        "Dobieraj obraz według wypowiadanego tekstu; błędna przebitka jest gorsza niż pozostawienie prowadzącego.",
+        "Nie powtarzaj assetu, gdy istnieje inny właściwy materiał.",
+        "Wsad, blok i inne akcje muszą dojść do czytelnej kulminacji."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/broll.md"
+      ]
+    },
+    {
+      "id": "subject-reveal-v1",
+      "module": "story",
+      "status": "accepted",
+      "scope": "interview",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Nie wolno zdradzać odpowiedzi zdjęciem przed wypowiedzeniem nazwiska bohatera.",
+      "rules": [
+        "Przed wypowiedzeniem nazwiska pokazuj kontekst, nie bohatera.",
+        "Po ujawnieniu obowiązuje priorytet: zawodnik, następnie zespół, na końcu miasto.",
+        "Materiał zawodnika z innego turnieju może ilustrować osobę, ale nie może udawać dowodu miejsca."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "knowledge/broll.md"
+      ]
+    },
+    {
+      "id": "kinetic-typography-b-v1",
+      "module": "kinetic-typography",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik zatwierdził wariant B planszy LIDER / TO NIE TYLKO PUNKTY.",
+      "rules": [
+        "Używaj krótkiej tezy z sekwencyjnym wejściem słów i jednym wyróżnionym słowem-kluczem.",
+        "Gradient ma być lokalny i zajmować tylko obszar potrzebny do czytelności.",
+        "Planszę umieszczaj w wolnej przestrzeni, nigdy na twarzy."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "output/r2-b-kinetic-editorial.mp4"
+      ]
+    },
+    {
+      "id": "attention-safety-v1",
+      "module": "qa",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Bezpieczne kadrowanie jest obowiązkową lokalną bramką przed nadpisaniem finalnego filmu.",
+      "rules": [
+        "Plansza przecinająca główną twarz blokuje finalizację.",
+        "Główna twarz dotykająca krawędzi przebitki blokuje finalizację.",
+        "Najpierw renderuj preview-check; finalny plik zastępuj dopiero po lokalnym QA."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza",
+        "analysis/16-adrian-bogucki-baza/attention-map/REPORT.md"
+      ]
+    },
+    {
+      "id": "reject-paper-family-v1",
+      "module": "effects",
+      "status": "rejected",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Dwie próby nie odwzorowały jakości referencji i zostały przez użytkownika odrzucone.",
+      "rules": [
+        "Nie używaj paper-reveal ani paper-collage.",
+        "Nie używaj gazet, papierowych kart, zakładek, szwów, rozdarć ani motion-poster/cutout jako kontynuacji tego kierunku."
+      ],
+      "evidence": [
+        "knowledge/reference-roadmap.md"
+      ]
+    },
+    {
+      "id": "reject-school-glitch-v1",
+      "module": "transitions",
+      "status": "rejected",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Czerwono-niebieskie linie zostały ocenione jako amatorskie i niepasujące do materiału premium.",
+      "rules": [
+        "Nie używaj glitchu z czerwono-niebieskimi pasami, liniami ani prostokątami."
+      ],
+      "evidence": [
+        "knowledge/effects.md"
+      ]
+    },
+    {
+      "id": "reject-rapid-zooms-v1",
+      "module": "framing",
+      "status": "rejected",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Bardzo częste zoomy rozpraszały i utrudniały skupienie na wypowiedzi.",
+      "rules": [
+        "Nie zmieniaj zoomu co 1–2 sekundy ani osobno dla każdego krótkiego beatu tekstowego."
+      ],
+      "evidence": [
+        "job:16-adrian-bogucki-baza"
+      ]
+    },
+    {
+      "id": "multi-layouts-experimental-v1",
+      "module": "broll",
+      "status": "experimental",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Techniczny prototyp nie odpowiadał referencji i nie został zaakceptowany jako język wizualny.",
+      "rules": [
+        "Split, stack i cutout pozostają wyłączone z automatycznego wyboru do czasu zaakceptowania konkretnego przykładu."
+      ],
+      "evidence": [
+        "knowledge/reference-roadmap.md"
+      ]
+    },
+    {
+      "id": "matte-photos-default-v1",
+      "module": "broll",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Korekta użytkownika 13.09.2026: pojedyncze zdjęcie areny i wideo areny nie mają korzystać z animacji fotograficznej. Zastępuje wcześniejszą zbyt szeroką interpretację.",
+      "rules": [
+        "Pojedyncze zdjęcie, także areny, pozostaje zwykłą przebitką z opcjonalnym delikatnym zoomem lub panoramowaniem; wideo areny pozostaje zwykłym klipem. Nie stosuj do nich BaronMattePhotos.",
+        "BaronMattePhotos stosuj do świadomie zaplanowanej wspólnej sekwencji co najmniej dwóch fotografii. Sama obecność zdjęć nie uruchamia animacji; nie grupuj automatycznie osobnych przebitek.",
+        "Dla zaplanowanej sekwencji przygotuj pełny pokaz photos:prepare i użyj wynikowego assetId wideo full/still z pełnym czasem oraz cue sidecara. W raporcie pokaż zdjęcia, kolejność i profile.",
+        "Plansze danych, schematy i dokumenty zachowują właściwy osobny sposób prezentacji."
+      ],
+      "evidence": [
+        "examples/matte-photos/accepted.mp4",
+        "knowledge/matte-photos.md"
+      ]
+    },
+    {
+      "id": "editing-precision-adrian-v1",
+      "module": "qa",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Użytkownik 13.09.2026 polecił zaktualizować zasady, aby montaże były tak precyzyjne jak zaakceptowany montaż Adriana, po diagnozie Bordeaux.",
+      "rules": [
+        "Przed montażem stosuj cały knowledge/editing-precision.md. Gotową pociętą bazę zachowaj w całości i kolejności, chyba że użytkownik zleci skracanie.",
+        "Zweryfikuj obraz każdego assetu, pełny zakres wideo i kulminację; zapisz cytat, czas osi, IN–OUT i dowód w director/material-review.md. Opis katalogu nie jest weryfikacją.",
+        "Opracuj całą oś od hooka do finału, uzasadniaj długie odcinki prowadzącego; dobieraj liczby, grafiki i SFX do znaczenia bez mechanicznego kopiowania zagęszczenia Adriana.",
+        "Po zmianie osi odśwież pakiet i reżyserię; review-plan musi odpowiadać wersji wykonywanej przez renderer. Nie używaj raportu skrótu do pełnej bazy.",
+        "Gotowość redakcyjną potwierdź pełnym oglądaniem i odsłuchem konkretnego MP4, z identyfikacją wersji i raportem director/editorial-review.md według knowledge/style-evaluation.md. Sukces techniczny i complete nie zastępują tej kontroli."
+      ],
+      "evidence": [
+        "examples/adrian-bogucki-approved/notes.md",
+        "knowledge/editing-precision.md"
+      ]
+    },
+    {
+      "id": "reel1-baronmatte-pocznik",
+      "module": "broll",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Uzytkownik zaakceptowal rolke #1 (Lorenzo/Francja); BaronMatte ze zdjeciami zawodnika na poczatku rolki oraz dla druzyn prsawnikow (np. Serbia).",
+      "rules": [
+        "BaronMatte ze zdjeciami bohatera stosuj w otwarciu rolki i dla druzyn (np. Serbowie).",
+        "BaronMatte przygotowuj przez photos:prepare z dokladnym selection.durationMs i sourceStartMs 0, jako pelne wideo full/still."
+      ],
+      "evidence": [
+        "job:#1",
+        "knowledge/matte-photos.md"
+      ]
+    },
+    {
+      "id": "reel1-bez-plansz-stat",
+      "module": "graphics",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Uzytkownik zrezygnowal z plansz statystyk w rolce #1; liczby ilustrowane glownie przebitkami/wideo/materialem.",
+      "rules": [
+        "Nie dodawaj plansz statystyk (stat-card) w rolkach na gotowej bazie.",
+        "Liczby i wyniki osadzaj glownie w przebitce/wideo/materiale video, nie w osobnej planszy."
+      ],
+      "evidence": [
+        "job:#1"
+      ]
+    },
+    {
+      "id": "reel1-sfx-only-baronmatte",
+      "module": "audio",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": true,
+      "reason": "Uzytkownik chcial usunac dzwieki przy prowadzacym; efekty dzwiekowe tylko przy BaronMatte.",
+      "rules": [
+        "Efekty dzwiekowe (SFX) dodawaj wyłącznie w sekcjach z BaronMatte; przy prowadzacym bez dzwiekow."
+      ],
+      "evidence": [
+        "job:#1"
+      ]
+    },
+    {
+      "id": "reel1-wideo-od-poczatku",
+      "module": "broll",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Uzytkownik zaznaczyl, ze wideo sportowe ma sie zaczynac od poczatku akcji, nie od momentu wpadania pilki; zachowuje cala sekwencje po rzucie.",
+      "rules": [
+        "Wideo z rzutem/akcja uruchamiaj od poczatku ujecia (sourceStartMs 0), nie od kulminacji wpadajacej pilki."
+      ],
+      "evidence": [
+        "job:#1"
+      ]
+    },
+    {
+      "id": "reel1-polowa-prowadzacy",
+      "module": "structure",
+      "status": "accepted",
+      "scope": "global",
+      "userConfirmed": true,
+      "autoApply": false,
+      "reason": "Uzytkownik ustalil w rolce #1 podzial 50/50: okolo polowa czasu prowadzacy, polowa przebitki/anime/plansze.",
+      "rules": [
+        "W gotowej bazie na obracie uzglaszaj do polowy osi prowadzacego, reszta to przebitki, wideo, BaronMatte i plansze."
+      ],
+      "evidence": [
+        "job:#1"
+      ]
+    }
+  ]
+}

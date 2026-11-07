@@ -1,0 +1,5531 @@
+[
+  {
+    "track": 0,
+    "name": "scene_1",
+    "start": 0.0,
+    "end": 58.0,
+    "effects": {}
+  },
+  {
+    "track": 1,
+    "name": "scene_2",
+    "start": 58.0,
+    "end": 123.0,
+    "effects": {}
+  },
+  {
+    "track": 2,
+    "name": "Adjustment Layer",
+    "start": 0.0,
+    "end": 16.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.40870488321179332",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.16682098309199014",
+                "0"
+              ]
+            },
+            {
+              "frame": 14.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.51698513801523405",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "-0.16682098309199014",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 2,
+    "name": "Adjustment Layer",
+    "start": 53.0,
+    "end": 64.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "0",
+                "0",
+                "-0.16682098309199014",
+                "2.0429678297422045e-17"
+              ]
+            },
+            {
+              "frame": 11.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.16666666666666666",
+                "5",
+                "4",
+                "0.16682098309199014",
+                "-2.0429678297422045e-17",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 2,
+    "name": "scene_3",
+    "start": 123.0,
+    "end": 192.0,
+    "effects": {}
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 0.0,
+    "end": 4.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.47685185074806213,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 34.627857208252,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 167.252990722656,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 16.0,
+    "end": 20.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.17870371043682098,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 120.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 38.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 20.0,
+    "end": 24.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 108.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 36.252990722656,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 24.0,
+    "end": 30.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7879629731178284,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 113.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 44.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 30.0,
+    "end": 36.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.2239583283662796
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 36.0,
+    "end": 42.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5755208134651184
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 42.0,
+    "end": 47.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.7562500238418579
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "Adjustment Layer",
+    "start": 116.0,
+    "end": 132.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.40870488321179332",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.16682098309199014",
+                "0"
+              ]
+            },
+            {
+              "frame": 14.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.51698513801523405",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "-0.16682098309199014",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 3,
+    "name": "scene_4",
+    "start": 192.0,
+    "end": 254.0,
+    "effects": {}
+  },
+  {
+    "track": 4,
+    "name": "Color Matte",
+    "start": 39.0,
+    "end": 44.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 53.0,
+    "end": 61.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 135.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 37.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 70.0,
+    "end": 79.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 135.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 32.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 130.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 85.0,
+    "end": 95.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.31111112236976624,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 2.0,
+              "value": [
+                0.3490740656852722,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "0",
+                "0.46105918977092447",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.083333333333333329",
+                "0"
+              ]
+            },
+            {
+              "frame": 10.0,
+              "value": [
+                0.8490740656852722,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0.042571065298339095",
+                "0.5373831772795421",
+                "0",
+                "0.16666666666666666",
+                "5",
+                "4",
+                "-0.083333333333333329",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Scale": {
+          "value": 261.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 42.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.6953703761100769,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.4972222149372101,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 132.0,
+          "keys": [
+            {
+              "frame": 4.018691579112497,
+              "value": 132.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "-235.0016401477244",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 8.09968845402519,
+              "value": 100.0,
+              "raw": [
+                "0",
+                "0",
+                "-235.0016401477244",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 99.0,
+    "end": 105.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.2239583283662796
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 118.0,
+    "end": 123.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 50.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 166.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 123.0,
+    "end": 129.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.19814814627170563,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 115.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 44.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5222222208976746,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 134.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Color Matte",
+    "start": 129.0,
+    "end": 134.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 139.0,
+    "end": 145.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 178.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 28.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 161.0,
+    "end": 167.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5119791626930237
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 168.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 33.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 167.0,
+    "end": 173.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 151.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 40.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 130.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "Adjustment Layer",
+    "start": 185.0,
+    "end": 196.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "0",
+                "0",
+                "-0.16682098309199014",
+                "2.0429678297422045e-17"
+              ]
+            },
+            {
+              "frame": 11.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.16666666666666666",
+                "5",
+                "4",
+                "0.16682098309199014",
+                "-2.0429678297422045e-17",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 4,
+    "name": "scene_5",
+    "start": 254.0,
+    "end": 319.0,
+    "effects": {}
+  },
+  {
+    "track": 5,
+    "name": "Color Matte",
+    "start": 42.0,
+    "end": 47.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 5,
+    "name": "Color Matte",
+    "start": 61.0,
+    "end": 66.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.10740742087364197,
+            0.4088541567325592
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 5,
+    "name": "Color Matte",
+    "start": 104.0,
+    "end": 109.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 5,
+    "name": "Color Matte",
+    "start": 132.0,
+    "end": 137.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 5,
+    "name": "Adjustment Layer",
+    "start": 245.0,
+    "end": 261.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.40870488321179332",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.16682098309199014",
+                "0"
+              ]
+            },
+            {
+              "frame": 14.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.51698513801523405",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "-0.16682098309199014",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 5,
+    "name": "scene_6",
+    "start": 313.0,
+    "end": 402.0,
+    "effects": {}
+  },
+  {
+    "track": 6,
+    "name": "Color Matte",
+    "start": 45.0,
+    "end": 50.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Color Matte",
+    "start": 65.0,
+    "end": 70.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.16851851344108582,
+            0.6317708492279053
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Color Matte",
+    "start": 107.0,
+    "end": 112.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Color Matte",
+    "start": 135.0,
+    "end": 140.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Adjustment Layer",
+    "start": 181.0,
+    "end": 190.0,
+    "effects": {}
+  },
+  {
+    "track": 6,
+    "name": "Adjustment Layer",
+    "start": 190.0,
+    "end": 201.0,
+    "effects": {}
+  },
+  {
+    "track": 6,
+    "name": "Adjustment Layer",
+    "start": 201.0,
+    "end": 215.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.3916666805744171,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 109.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 32.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.675000011920929,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 130.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Adjustment Layer",
+    "start": 215.0,
+    "end": 235.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5333333611488342,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 777.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 25.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.4870370328426361,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 130.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "Adjustment Layer",
+    "start": 307.0,
+    "end": 327.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "0",
+                "0",
+                "-0.16682098309199014",
+                "2.0429678297422045e-17"
+              ]
+            },
+            {
+              "frame": 11.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.16666666666666666",
+                "5",
+                "4",
+                "0.16682098309199014",
+                "-2.0429678297422045e-17",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 6,
+    "name": "scene_7",
+    "start": 402.0,
+    "end": 450.0,
+    "effects": {}
+  },
+  {
+    "track": 7,
+    "name": "Color Matte",
+    "start": 70.0,
+    "end": 75.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5111111402511597,
+            0.6244791746139526
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Color Matte",
+    "start": 110.0,
+    "end": 115.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Color Matte",
+    "start": 192.0,
+    "end": 197.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.10740742087364197,
+            0.4088541567325592
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 243.0,
+    "end": 249.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.47685185074806213,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 34.627857208252,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 167.252990722656,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 255.0,
+    "end": 261.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.17870371043682098,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 120.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 38.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 261.0,
+    "end": 267.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 108.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 36.252990722656,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 267.0,
+    "end": 273.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7879629731178284,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 113.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 44.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 273.0,
+    "end": 279.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.2239583283662796
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 279.0,
+    "end": 285.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5755208134651184
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 285.0,
+    "end": 290.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.7562500238418579
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 50.627853393555,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 177.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 206.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 7,
+    "name": "Adjustment Layer",
+    "start": 394.0,
+    "end": 410.0,
+    "effects": {
+      "Directional Blur": {
+        "Direction": {
+          "value": 90.0,
+          "keys": []
+        },
+        "Blur Length": {
+          "value": 30.0,
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "236.37296388877758",
+                "0.16666666666666666"
+              ]
+            },
+            {
+              "frame": 3.8037383138403547,
+              "value": 30.0,
+              "raw": [
+                "5",
+                "4",
+                "0",
+                "0.33333333333333331",
+                "0",
+                "0.33333333333333331"
+              ]
+            },
+            {
+              "frame": 9.595015566444138,
+              "value": 0.0,
+              "raw": [
+                "0",
+                "0",
+                "-155.25088160777744",
+                "0.16666666666666666",
+                "0",
+                "0.16666666666666666"
+              ]
+            }
+          ]
+        }
+      },
+      "Offset": {
+        "Shift Center To": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 0.0,
+              "value": [
+                -0.5009258985519409,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.66355140135752377",
+                "0",
+                "0.40870488321179332",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.16682098309199014",
+                "0"
+              ]
+            },
+            {
+              "frame": 14.0,
+              "value": [
+                0.5,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.51698513801523405",
+                "0",
+                "0.41510903401209526",
+                "5",
+                "4",
+                "-0.16682098309199014",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Blend With Original": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Color Matte",
+    "start": 75.0,
+    "end": 80.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7490741014480591,
+            0.5520833134651184
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 13.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 25.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Color Matte",
+    "start": 196.0,
+    "end": 201.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.16851851344108582,
+            0.6317708492279053
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 327.0,
+    "end": 335.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 187.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 36.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 347.0,
+    "end": 358.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.31111112236976624,
+            0.5
+          ],
+          "keys": [
+            {
+              "frame": 2.0,
+              "value": [
+                0.3490740656852722,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.16666666666666666",
+                "0.022231933662812731",
+                "0.36137820512820512",
+                "5",
+                "4",
+                "0",
+                "0",
+                "0.083333333333333329",
+                "0"
+              ]
+            },
+            {
+              "frame": 10.0,
+              "value": [
+                0.8490740656852722,
+                0.5
+              ],
+              "raw": [
+                "5",
+                "0",
+                "0",
+                "0.44791666666666669",
+                "0",
+                "0.16666666666666666",
+                "5",
+                "4",
+                "-0.083333333333333329",
+                "-0",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        "Scale": {
+          "value": 140.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 24.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.6953703761100769,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.4972222149372101,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 132.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 365.0,
+    "end": 371.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8916666507720947,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 22.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 252.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 371.0,
+    "end": 376.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 50.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 166.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 376.0,
+    "end": 382.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.19814814627170563,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 115.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 44.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5222222208976746,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 134.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Color Matte",
+    "start": 382.0,
+    "end": 387.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 392.0,
+    "end": 398.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 135.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 25.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 414.0,
+    "end": 420.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 145.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 41.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 130.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 8,
+    "name": "Adjustment Layer",
+    "start": 426.0,
+    "end": 429.0,
+    "effects": {
+      "Motion": {
+        "Position": {
+          "value": [
+            0.4731481373310089,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 170.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 32.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      },
+      "Transform": {
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Position": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale Height": {
+          "value": 120.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Skew": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Skew Axis": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Shutter Angle": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 9,
+    "name": "Color Matte",
+    "start": 80.0,
+    "end": 85.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7157407402992249,
+            0.3192708194255829
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 9,
+    "name": "Color Matte",
+    "start": 201.0,
+    "end": 206.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5111111402511597,
+            0.6244791746139526
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 9,
+    "name": "Color Matte",
+    "start": 285.0,
+    "end": 290.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 9,
+    "name": "Color Matte",
+    "start": 347.0,
+    "end": 352.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 10,
+    "name": "Color Matte",
+    "start": 85.0,
+    "end": 90.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.39537036418914795,
+            0.3192708194255829
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 10,
+    "name": "Color Matte",
+    "start": 206.0,
+    "end": 211.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7490741014480591,
+            0.5520833134651184
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 13.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 25.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 10,
+    "name": "Color Matte",
+    "start": 288.0,
+    "end": 293.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 10,
+    "name": "Color Matte",
+    "start": 350.0,
+    "end": 355.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 10,
+    "name": "Color Matte",
+    "start": 386.0,
+    "end": 391.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.21296297013759613,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 11,
+    "name": "Color Matte",
+    "start": 211.0,
+    "end": 216.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.7157407402992249,
+            0.3192708194255829
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 11,
+    "name": "Color Matte",
+    "start": 291.0,
+    "end": 296.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 11,
+    "name": "Color Matte",
+    "start": 353.0,
+    "end": 358.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 11,
+    "name": "Color Matte",
+    "start": 389.0,
+    "end": 394.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.5,
+            0.4958333373069763
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 116.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 12,
+    "name": "Color Matte",
+    "start": 216.0,
+    "end": 221.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.39537036418914795,
+            0.3192708194255829
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 10.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 20.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  },
+  {
+    "track": 12,
+    "name": "Color Matte",
+    "start": 392.0,
+    "end": 397.0,
+    "effects": {
+      "Opacity": {
+        "Opacity": {
+          "value": 100.0,
+          "keys": []
+        },
+        "Blend Mode": {
+          "value": 10.0,
+          "keys": []
+        }
+      },
+      "Motion": {
+        "Position": {
+          "value": [
+            0.8268518447875977,
+            0.5
+          ],
+          "keys": []
+        },
+        "Scale": {
+          "value": 114.0,
+          "keys": []
+        },
+        "Scale Width": {
+          "value": 21.0,
+          "keys": []
+        },
+        " ": {
+          "value": false,
+          "keys": []
+        },
+        "Rotation": {
+          "value": 0.0,
+          "keys": []
+        },
+        "Anchor Point": {
+          "value": [
+            0.5,
+            0.5
+          ],
+          "keys": []
+        },
+        "Anti-flicker Filter": {
+          "value": 0.0,
+          "keys": []
+        }
+      }
+    }
+  }
+]

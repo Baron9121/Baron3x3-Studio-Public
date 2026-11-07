@@ -1,0 +1,38 @@
+{
+  "opis": "Reguły doboru przebitek z biblioteki wideo i zdjęć do BaronMattePhotos (te same kryteria dla obu). Wzorce to wyrażenia regularne bez rozróżniania wielkości liter, sprawdzane na tytule, nazwie pliku i polach indeksu README.md. „wyklucz” odrzuca zawsze. „sprawdz_w_klubowych” w turniejach klubowych oznacza klip do sprawdzenia na miniaturach, a poza nimi wyklucza.",
+  "biblioteka": "assets/library/Baron3x3/video",
+  "biblioteka_zdjec": "assets/library/Baron3x3/images",
+  "turnieje_klubowe": ["world tour", "\\bwt", "challenger", "quest", "mistrzostw\\w* polski", "city tour", "masters", "\\bch[a-z]"],
+  "wyklucz": {
+    "rozgrywki reprezentacji": {
+      "pola": ["title", "file", "tour"],
+      "wzorce": [
+        "world ?cup", "#?3x3 ?wc\\b", "mistrzostw\\w* (świata|europy)", "europe ?cup", "fiba 3x3 europe\\b", "3x3 europe\\b",
+        "eurobasket", "nations league", "lig\\w* narodów", "olimpi", "olympic", "igrzysk", "european games",
+        "universiade", "uniwersjad", "\\bu-?(17|18|19|21|23)\\b"
+      ]
+    },
+    "reprezentacja wprost": {
+      "pola": ["title", "file", "team", "players"],
+      "wzorce": ["reprezentac", "narodow", "national team"]
+    },
+    "koszykarki": {
+      "pola": ["title", "file", "tour", "team", "players", "desc"],
+      "wzorce": ["koszykark", "koszykarzk", "zawodnicz", "kobiet", "żeńsk", "women", "woman", "female", "dziewcz", "\\bwnba\\b"]
+    }
+  },
+  "sprawdz_w_klubowych": {
+    "opis wspomina reprezentację lub jej turniej": {
+      "pola": ["desc"],
+      "wzorce": [
+        "reprezentac", "narodow", "national team", "world ?cup", "mistrzostw\\w* (świata|europy)", "europe ?cup", "eurobasket", "olimpi", "igrzysk"
+      ]
+    },
+    "zespół nazwany krajem": {
+      "pola": ["team"],
+      "wzorce": [
+        "^(team )?(polska|poland|usa|stany zjednoczone|serbia|łotwa|latvia|litwa|lithuania|niemcy|germany|holandia|netherlands|francja|france|hiszpania|spain|włochy|italy|belgia|belgium|austria|szwajcaria|switzerland|mongolia|chiny|china|japonia|japan|kanada|canada|australia|nowa zelandia|new zealand|brazylia|brazil|argentyna|argentina|portoryko|puerto rico|chorwacja|croatia|słowenia|slovenia|czechy|czech republic|węgry|hungary|estonia|ukraina|ukraine|rumunia|romania|izrael|israel|turcja|turkey|katar|qatar|madagaskar|egipt|egypt|filipiny|philippines|indonezja|indonesia|korea\\w*|dania|denmark|szwecja|sweden|norwegia|norway|portugalia|portugal|irlandia|ireland|azerbejdżan|azerbaijan|andora|andorra|monako|monaco)\\b"
+      ]
+    }
+  }
+}

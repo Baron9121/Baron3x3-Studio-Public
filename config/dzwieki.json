@@ -1,0 +1,108 @@
+{
+  "opis": "Efekty dźwiękowe zaakceptowane przez użytkownika. `lead` = sekundy od początku pliku do momentu, który ma trafić w podany czas (szczyt swisha w klatkę wpadnięcia piłki, szczyt risera w cięcie). `max` = limit na rolkę. Pliki są lokalne w assets/sfx (poza Git), znormalizowane do szczytu -1 dBFS.",
+  "odstep_min_s": 5.0,
+  "efekty": {
+    "whoosh": {
+      "plik": "dragon-whoosh-short.wav",
+      "glosnosc": 0.13,
+      "lead": 0.3,
+      "max": 99,
+      "kiedy": "przejście z twarzy na blok przebitek (automatycznie)"
+    },
+    "impact": {
+      "plik": "impact-low.wav",
+      "glosnosc": 0.25,
+      "lead": 0.08,
+      "max": 2,
+      "kiedy": "puenta albo mocna liczba, w pauzie po zdaniu"
+    },
+    "swish": {
+      "plik": "swish.wav",
+      "glosnosc": 0.35,
+      "lead": 0.32,
+      "max": 3,
+      "kiedy": "klatka, w której piłka wpada do kosza na przebitce"
+    },
+    "doping": {
+      "plik": "doping.wav",
+      "glosnosc": 0.18,
+      "lead": 0.0,
+      "max": 1,
+      "kiedy": "zwycięstwo, awans, trofeum"
+    },
+    "riser": {
+      "plik": "riser.wav",
+      "glosnosc": 0.18,
+      "lead": 1.72,
+      "max": 1,
+      "kiedy": "narasta do cięcia, po którym pada odpowiedź na pytanie z haka"
+    },
+    "zegar": {
+      "plik": "zegar.wav",
+      "glosnosc": 0.12,
+      "lead": 0.0,
+      "max": 2,
+      "kiedy": "mowa o czasie: 12 s na akcję, końcówka meczu"
+    },
+    "liczarka": {
+      "plik": "liczarka.wav",
+      "glosnosc": 0.18,
+      "lead": 0.0,
+      "max": 2,
+      "kiedy": "pieniądze i nagrody, najlepiej ze stockiem liczarki"
+    }
+  },
+  "zrodla": {
+    "dragon-whoosh-short.wav": "wcześniejsza paczka BaronMattePhotos (remotion/public/matte-photos/sfx)",
+    "impact-low.wav": "wygenerowany lokalnie w FFmpeg, bez licencji zewnętrznej",
+    "swish.wav": {
+      "tytul": "Swish Sound",
+      "autor": "freesound_community",
+      "strona": "https://pixabay.com/sound-effects/film-special-effects-swish-sound-94707/",
+      "licencja": "Pixabay Content License",
+      "fragment": "0–0,71 s",
+      "sha256": "59e309d6b3a5ecd48136584aa593b9499adb75df9df176ffbba3fb7eaa13ad4c"
+    },
+    "doping.wav": {
+      "tytul": "Crowd Cheer",
+      "autor": "DRAGON-STUDIO",
+      "strona": "https://pixabay.com/sound-effects/people-crowd-cheer-406646/",
+      "licencja": "Pixabay Content License",
+      "fragment": "0–3,0 s z wyciszeniem",
+      "sha256": "7cb1910f42c2f995df20573da2747ca0b39a75fcbb18bb9f4235709d55277bab"
+    },
+    "riser.wav": {
+      "tytul": "Riser (7)",
+      "autor": "u_1pruylktlg",
+      "strona": "https://pixabay.com/sound-effects/film-special-effects-riser-7-130957/",
+      "licencja": "Pixabay Content License",
+      "fragment": "0,3–2,3 s",
+      "sha256": "fd377b55119f4498d9a3a525c46a9848aab6d5346e39b5ffde685061a8999334"
+    },
+    "zegar.wav": {
+      "tytul": "Clock Ticking Down",
+      "autor": "DRAGON-STUDIO",
+      "strona": "https://pixabay.com/sound-effects/film-special-effects-clock-ticking-down-376897/",
+      "licencja": "Pixabay Content License",
+      "fragment": "0–3,0 s z wyciszeniem",
+      "sha256": "2fd3aebaba46573be5e4612f67454627584220a3468a3cf48d2ce8fffef43864"
+    },
+    "liczarka.wav": {
+      "tytul": "Money Counter",
+      "autor": "freesound_community",
+      "strona": "https://pixabay.com/sound-effects/film-special-effects-money-counter-95830/",
+      "licencja": "Pixabay Content License",
+      "fragment": "0–2,5 s z wyciszeniem",
+      "sha256": "b23e88b582e35f8b7ad3efbc5d6822385ed0cf7ad6bfb7c13d465a4a6d113049"
+    },
+    "licznik.wav": {
+      "tytul": "Tic-Tock Synth by Prettysleepy Art",
+      "autor": "Prettysleepy",
+      "strona": "https://pixabay.com/sound-effects/film-special-effects-tic-tock-synth-by-prettysleepy-art-11642/",
+      "licencja": "Pixabay Content License",
+      "fragment": "pojedyncze tyknięcie 60 ms od 0,32 s, znormalizowane",
+      "uzycie": "plansza-licznik: tyknięcie co 3 klatki podczas liczenia, ostatnie głośniej na land_at (remotion/studio/Graphics.tsx)",
+      "sha256": "9ce025f18851649ba1e3776cd76e75d372971133dcd376b0b0fbca93f804f577"
+    }
+  }
+}

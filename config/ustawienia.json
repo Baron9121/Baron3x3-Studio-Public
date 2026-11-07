@@ -1,0 +1,9 @@
+{
+  "width": 1080, "height": 1920, "fps": 30,
+  "green": "#39E508", "white": "#FFFFFF", "black": "#0B0B0B",
+  "fontFamily": "Helvetica Neue, Arial, sans-serif",
+  "whisperModel": "small", "language": "pl", "computeType": "int8",
+  "silenceSeconds": 0.8, "captionWords": 6,
+  "styleStatus": "napisy zaakceptowane przez użytkownika 2026-09-29 (Helvetica Neue, wyśrodkowane)",
+  "brandSource": "Styl napisów z rolek referencyjnych użytkownika: słowo po słowie, wyróżnione słowa większe z poświatą"
+}

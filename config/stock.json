@@ -1,0 +1,11 @@
+{
+  "opis": "Stock tylko dosłownie do tego, co pada w scenariuszu: miejsce turnieju, kraj, klub, obiekt, pieniądze, podróż. Bez metafor. Rodzaje z „wymaga_nazwy” przyjmują wynik tylko, gdy nazwa lub alias występuje w tytule, opisie albo adresie źródła, bo stock bez podpisu miejsca może pokazywać inne miasto. {nazwa} zastępowana jest nazwą i każdym aliasem.",
+  "rodzaje": {
+    "miasto": {"wymaga_nazwy": true, "video": ["{nazwa} aerial", "{nazwa} drone", "{nazwa} old town"], "image": ["{nazwa} aerial view", "{nazwa} skyline", "{nazwa} old town square"]},
+    "kraj": {"wymaga_nazwy": true, "video": ["{nazwa} flag waving"], "image": ["flag of {nazwa}"]},
+    "obiekt": {"wymaga_nazwy": true, "video": ["{nazwa}"], "image": ["{nazwa}"]},
+    "klub": {"wymaga_nazwy": true, "video": [], "image": ["{nazwa} logo", "{nazwa} crest"]},
+    "pieniadze": {"wymaga_nazwy": false, "video": ["money counting machine", "counting banknotes"], "image": []},
+    "podroz": {"wymaga_nazwy": false, "video": ["airplane taking off", "airplane window view clouds"], "image": []}
+  }
+}

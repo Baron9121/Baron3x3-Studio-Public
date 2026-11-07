@@ -1,0 +1,24 @@
+{
+  "photos": [
+    {
+      "src": "flexible-photos/001.png"
+    },
+    {
+      "src": "flexible-photos/002.png",
+      "cutout": "flexible-photos/002-cutout.png"
+    },
+    {
+      "src": "flexible-photos/003.png"
+    },
+    {
+      "src": "flexible-photos/004.png"
+    },
+    {
+      "src": "flexible-photos/005.png"
+    },
+    {
+      "src": "flexible-photos/006.png",
+      "cutout": "flexible-photos/006-cutout.png"
+    }
+  ]
+}

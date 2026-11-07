@@ -1,0 +1,28 @@
+{
+  "photos": [
+    {
+      "src": "travel-stories-photos/01.jpg",
+      "fit": "cover"
+    },
+    {
+      "src": "travel-stories-photos/02.jpg",
+      "fit": "contain"
+    },
+    {
+      "src": "travel-stories-photos/03.jpg",
+      "fit": "cover"
+    },
+    {
+      "src": "travel-stories-photos/04.jpg",
+      "fit": "cover"
+    },
+    {
+      "src": "travel-stories-photos/05.jpg",
+      "fit": "cover"
+    },
+    {
+      "src": "travel-stories-photos/06.jpg",
+      "fit": "cover"
+    }
+  ]
+}

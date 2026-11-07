@@ -1,0 +1,20 @@
+# Obsługa specjalistów z Cline
+
+Komenda: `npm run reel:specialist -- ETAP PLIK --approved-budget B --reserve-usd R --cline-cost C`.
+B to jawnie zatwierdzony łączny budżet bieżącego wdrożenia/poprawki, R rezerwacja kolejnego żądania, C rzeczywisty łączny koszt sesji koordynatora z UI Cline (również poprzednich sesji tej poprawki). Nie wymyślaj wartości C. Brak tych danych zatrzymuje płatną komendę. Nie licz starego rachunku jako nowego wydatku, ale pokaż go osobno. Rezerwacja sprawdza budżet przed wywołaniem; nie jest limitem egzekwowanym przez dostawcę w trakcie inferencji. Saldo/limit klucza OpenRouter pozostaje zewnętrznym zabezpieczeniem. Koszt samej rozmowy Cline może narastać pomiędzy odczytami C — nie obiecuj automatycznego twardego limitu całego Cline.
+
+Skrypty korzystają z istniejącego loadera OpenRouter i Keychain projektu. Klucz zapisany wyłącznie w SecretStorage Cline nie jest automatycznie udostępniony skryptom. Nie odczytuj go do rozmowy; jeśli loader zgłosi brak, użyj istniejącej bezpiecznej konfiguracji projektu. Nie kopiuj sekretu do plików ani komendy.
+
+## Etapy
+
+1. `transcribe`: MAI-Transcribe-2 otrzymuje pełne audio źródła i zwraca surowy zapis dosłowny z czasami słów do `analysis/<job>/specialists/transcript-raw.json`. Nie zmienia aktywnego montażu. Brak timestampów jest błędem, nie pretekstem do ich wymyślenia.
+2. `verify-transcript`: Gemini Pro otrzymuje pełne audio i nowy tekst. Wykazuje różnice. Przy błędach popraw surowy wynik wyłącznie na podstawie dowodów, a następnie ponów weryfikację w ramach limitu; nie zmieniaj słów według wiedzy sportowej.
+3. Po akceptacji konkretnego tekstu: `reel:specialist -- apply-transcript PLIK --approved` (lokalnie, bez pól budżetu). Wymaga aktualnego raportu pass bez issues i zgodnych hashy. Zachowuje backup tekstu i podmian, czyści stare replacements, instaluje transkrypcję do istniejącego pipeline i cofa workflow do sprawdzenia historii. Nie uruchamia renderu. Nie zmieniaj później replacements bez ponownego sprawdzenia audio.
+4. `inspect`: Gemini Pro analizuje całe źródło. Dodatkowe materiały wskaż przez powtarzane `--media assets/...` dopiero po wyszukaniu w indeksie. Nie wysyłaj całej biblioteki. Raport obejmuje wyłącznie dostarczone materiały. Można wskazać wzorzec Adriana z projektu. Materiały niepewne pozostają niezweryfikowane.
+5. `story`: Sol Pro dostaje transkrypcję, raport inspect i instrukcje. Zwraca propozycję zakresów w raporcie. Koordynator przenosi te konkretne decyzje do istniejącego joba, uruchamia lokalne walidatory i pokazuje historię. Dla gotowej bazy zachowuje całość.
+6. Po akceptacji historii istniejący `reel:approve-story` przygotowuje pakiet. `director` wywołuje Sol Pro, waliduje JSON i importuje przez istniejący workflow do awaiting-director-approval. Wymaga aktualnego inspect i istniejącego raportu stylu referencji w director/reference-style.json. Nie zatwierdza ani nie renderuje. Pokaż oba raporty reżyserii. Przy błędach nie dopisuj własnych pomysłów jako rzekomych decyzji specjalisty.
+7. Po akceptacji i poleceniu „renderuj” użyj istniejących reel:approve-director/reel:render. Renderowanie i pomiary pozostają lokalne.
+8. `qa`: Gemini Pro dostaje CAŁE źródło i CAŁY render oraz plan/transkrypcję. Wzorzec podaj przez --media. Wynik zapisuje się w specialists/qa.json i obejmuje napisy, obraz, rytm, osoby i audio; incomplete lub needs-fixes nie oznaczają gotowości. Weryfikuj dowody modelu, nie traktuj jego pass jako gwarancji bezbłędności. Po zmianie filmu stary raport traci ważność przez hash.
+9. `costs`: pokazuje zestawienie zapisanych kosztów. Brak kosztu lub przerwane żądanie pozostawia nierozliczoną rezerwację i blokuje następne płatne żądanie. Rozlicz na podstawie faktycznego rachunku, nie usuwaj rezerwacji dla obejścia limitu.
+
+Zastosowanie nowej transkrypcji i nowych decyzji wymaga sprawdzenia spójności wszystkich zależnych planów. Dotychczasowe pliki Bordeaux nie zostały automatycznie przerobione przez instalację modułu. Żadnego testu płatnego nie uruchomiono podczas wdrożenia.
